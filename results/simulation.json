@@ -1,0 +1,281 @@
+{
+  "seed": 20261105,
+  "sims": 20000,
+  "identical_prompts": [
+    {
+      "n": 20,
+      "looks_3pt_better": 0.4028,
+      "looks_5pt_different": 0.668,
+      "mcnemar_false_positive": 0.0053
+    },
+    {
+      "n": 50,
+      "looks_3pt_better": 0.3189,
+      "looks_5pt_different": 0.4445,
+      "mcnemar_false_positive": 0.0218
+    },
+    {
+      "n": 100,
+      "looks_3pt_better": 0.26895,
+      "looks_5pt_different": 0.28135,
+      "mcnemar_false_positive": 0.02775
+    },
+    {
+      "n": 200,
+      "looks_3pt_better": 0.1834,
+      "looks_5pt_different": 0.12165,
+      "mcnemar_false_positive": 0.03715
+    },
+    {
+      "n": 500,
+      "looks_3pt_better": 0.07395,
+      "looks_5pt_different": 0.0138,
+      "mcnemar_false_positive": 0.04075
+    },
+    {
+      "n": 1000,
+      "looks_3pt_better": 0.0201,
+      "looks_5pt_different": 0.0005,
+      "mcnemar_false_positive": 0.0425
+    }
+  ],
+  "real_improvement_3pt": [
+    {
+      "concentration": 0.5,
+      "n": 20,
+      "power_mcnemar": 0.00145,
+      "power_unpaired": 0.00455,
+      "discordant_rate": 0.1204075
+    },
+    {
+      "concentration": 0.5,
+      "n": 50,
+      "power_mcnemar": 0.02835,
+      "power_unpaired": 0.0088,
+      "discordant_rate": 0.120505
+    },
+    {
+      "concentration": 0.5,
+      "n": 100,
+      "power_mcnemar": 0.07845,
+      "power_unpaired": 0.0142,
+      "discordant_rate": 0.12048850000000003
+    },
+    {
+      "concentration": 0.5,
+      "n": 200,
+      "power_mcnemar": 0.17195,
+      "power_unpaired": 0.0322,
+      "discordant_rate": 0.12059475
+    },
+    {
+      "concentration": 0.5,
+      "n": 500,
+      "power_mcnemar": 0.4445,
+      "power_unpaired": 0.1217,
+      "discordant_rate": 0.1209137
+    },
+    {
+      "concentration": 0.5,
+      "n": 1000,
+      "power_mcnemar": 0.7596,
+      "power_unpaired": 0.3538,
+      "discordant_rate": 0.1206357
+    },
+    {
+      "concentration": 2.0,
+      "n": 20,
+      "power_mcnemar": 0.00705,
+      "power_unpaired": 0.02255,
+      "discordant_rate": 0.21209250000000002
+    },
+    {
+      "concentration": 2.0,
+      "n": 50,
+      "power_mcnemar": 0.0331,
+      "power_unpaired": 0.0319,
+      "discordant_rate": 0.211484
+    },
+    {
+      "concentration": 2.0,
+      "n": 100,
+      "power_mcnemar": 0.06135,
+      "power_unpaired": 0.0454,
+      "discordant_rate": 0.21134300000000003
+    },
+    {
+      "concentration": 2.0,
+      "n": 200,
+      "power_mcnemar": 0.1142,
+      "power_unpaired": 0.07705,
+      "discordant_rate": 0.21112974999999998
+    },
+    {
+      "concentration": 2.0,
+      "n": 500,
+      "power_mcnemar": 0.2804,
+      "power_unpaired": 0.1906,
+      "discordant_rate": 0.2112267
+    },
+    {
+      "concentration": 2.0,
+      "n": 1000,
+      "power_mcnemar": 0.51345,
+      "power_unpaired": 0.39185,
+      "discordant_rate": 0.21130370000000004
+    },
+    {
+      "concentration": 20.0,
+      "n": 20,
+      "power_mcnemar": 0.01275,
+      "power_unpaired": 0.04115,
+      "discordant_rate": 0.28885
+    },
+    {
+      "concentration": 20.0,
+      "n": 50,
+      "power_mcnemar": 0.03395,
+      "power_unpaired": 0.0573,
+      "discordant_rate": 0.28933600000000004
+    },
+    {
+      "concentration": 20.0,
+      "n": 100,
+      "power_mcnemar": 0.0524,
+      "power_unpaired": 0.0764,
+      "discordant_rate": 0.288879
+    },
+    {
+      "concentration": 20.0,
+      "n": 200,
+      "power_mcnemar": 0.09515,
+      "power_unpaired": 0.1111,
+      "discordant_rate": 0.28895375
+    },
+    {
+      "concentration": 20.0,
+      "n": 500,
+      "power_mcnemar": 0.21465,
+      "power_unpaired": 0.22605,
+      "discordant_rate": 0.2892199
+    },
+    {
+      "concentration": 20.0,
+      "n": 1000,
+      "power_mcnemar": 0.39875,
+      "power_unpaired": 0.4044,
+      "discordant_rate": 0.2890109
+    }
+  ],
+  "winners_curse": [
+    {
+      "n": 50,
+      "candidates": 20,
+      "apparent_gain_points": 8.101333333333335,
+      "true_gain_points": 0.0,
+      "uncorrected_significant": 0.10133333333333333,
+      "bonferroni_significant": 0.004333333333333333
+    },
+    {
+      "n": 100,
+      "candidates": 20,
+      "apparent_gain_points": 5.926333333333332,
+      "true_gain_points": 0.0,
+      "uncorrected_significant": 0.14166666666666666,
+      "bonferroni_significant": 0.011
+    },
+    {
+      "n": 200,
+      "candidates": 20,
+      "apparent_gain_points": 4.223166666666663,
+      "true_gain_points": 0.0,
+      "uncorrected_significant": 0.15966666666666668,
+      "bonferroni_significant": 0.014333333333333333
+    },
+    {
+      "n": 500,
+      "candidates": 20,
+      "apparent_gain_points": 2.6806666666666614,
+      "true_gain_points": 0.0,
+      "uncorrected_significant": 0.17066666666666666,
+      "bonferroni_significant": 0.014666666666666666
+    }
+  ],
+  "required_cases": [
+    {
+      "effect_points": 1,
+      "discordant": 0.1,
+      "cases": 7847
+    },
+    {
+      "effect_points": 1,
+      "discordant": 0.2,
+      "cases": 15696
+    },
+    {
+      "effect_points": 1,
+      "discordant": 0.4,
+      "cases": 31394
+    },
+    {
+      "effect_points": 2,
+      "discordant": 0.1,
+      "cases": 1960
+    },
+    {
+      "effect_points": 2,
+      "discordant": 0.2,
+      "cases": 3923
+    },
+    {
+      "effect_points": 2,
+      "discordant": 0.4,
+      "cases": 7847
+    },
+    {
+      "effect_points": 3,
+      "discordant": 0.1,
+      "cases": 870
+    },
+    {
+      "effect_points": 3,
+      "discordant": 0.2,
+      "cases": 1742
+    },
+    {
+      "effect_points": 3,
+      "discordant": 0.4,
+      "cases": 3487
+    },
+    {
+      "effect_points": 5,
+      "discordant": 0.1,
+      "cases": 312
+    },
+    {
+      "effect_points": 5,
+      "discordant": 0.2,
+      "cases": 626
+    },
+    {
+      "effect_points": 5,
+      "discordant": 0.4,
+      "cases": 1254
+    },
+    {
+      "effect_points": 10,
+      "discordant": 0.1,
+      "cases": 77
+    },
+    {
+      "effect_points": 10,
+      "discordant": 0.2,
+      "cases": 155
+    },
+    {
+      "effect_points": 10,
+      "discordant": 0.4,
+      "cases": 312
+    }
+  ]
+}
